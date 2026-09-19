@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+node_modules/
+*.log
+.vscode/
+.idea/
+
+# Fuente en claro (NO publicar)
+index-src.html
+_preview.html

@@ -41,7 +41,7 @@ $gate = @'
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Equipo</title>
-<meta name="theme-color" content="#0f1216">
+<meta name="theme-color" content="#ffffff">
 <meta name="robots" content="noindex, nofollow">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -49,8 +49,8 @@ $gate = @'
 <style>
   *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
   :root{
-    --bg:#0f1216; --card:#171d24; --card2:#1f2730; --line:#2b3641;
-    --txt:#e9eef4; --dim:#93a2b1; --acc:#3ddc84;
+    --bg:#ffffff; --card:#ffffff; --card2:#f3f6f9; --line:#e0e6ec;
+    --txt:#16202b; --dim:#68757f; --acc:#0e8a4f;
   }
   body{
     font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
@@ -60,6 +60,7 @@ $gate = @'
   .gate{
     background:var(--card); border:1px solid var(--line); border-radius:14px;
     padding:32px 26px; width:100%; max-width:360px; border-top:3px solid var(--acc);
+    box-shadow:0 2px 10px rgba(22,32,43,.06);
   }
   .eyebrow{
     font-size:10.5px; text-transform:uppercase; letter-spacing:.14em;
@@ -78,12 +79,12 @@ $gate = @'
   }
   input:focus{border-color:var(--acc)}
   button{
-    width:100%; background:var(--acc); border:0; color:#07120b; border-radius:8px;
+    width:100%; background:var(--acc); border:0; color:#fff; border-radius:8px;
     padding:13px; font-family:inherit; font-weight:700; font-size:12.5px;
     text-transform:uppercase; letter-spacing:.12em; cursor:pointer;
   }
   button:disabled{opacity:.55; cursor:default}
-  .err{color:#ff8a92; font-size:13px; font-weight:500; margin-top:14px; min-height:18px}
+  .err{color:#cf2f2f; font-size:13px; font-weight:500; margin-top:14px; min-height:18px}
   .foot{
     margin-top:22px; padding-top:16px; border-top:1px solid var(--line);
     font-size:11.5px; color:var(--dim); line-height:1.6;
